@@ -21,39 +21,12 @@
     >
       Sort By Date
     </button>
-    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-      <article class="space-y-3">
-        <div class="p-2">
-          <img
-            class="w-full object-cover h-72 rounded-2xl"
-            src="https://img.olhardigital.com.br/wp-content/uploads/2023/01/chatgpt_assistente.jpg"
-            alt=""
-          />
-        </div>
-        <div class="space-y-3">
-          <h2 class="text-[#111] text-2xl font-semibold">Features</h2>
-          <ul class="list-decimal text-[#585858] ml-3">
-            <li>Natural language processing</li>
-            <li>Contextual understanding</li>
-            <li>Text generation</li>
-          </ul>
-          <hr />
-        </div>
-        <div class="space-y-3 flex flex-col">
-          <h2 class="text-[#111] text-2xl font-semibold">ChatGPT</h2>
-          <button
-            onclick="singleData()"
-            class="bg-[#FEF7F7] text-[#EB5757] p-1 rounded-full text-2xl ml-auto"
-          >
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-          <p class="font-medium text-[#585858]">
-            <i class="fa-regular fa-calendar-days"></i> 11/01/2022
-          </p>
-        </div>
-      </article>
-    </section>
+    <section
+      id="dataDisplay"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+    ></section>
     <button
+      id="allBtn"
       onclick="allBtn()"
       class="text-white text-xl font-semibold py-3 px-5 bg-[#EB5757] rounded-2xl"
     >
